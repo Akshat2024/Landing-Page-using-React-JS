@@ -1,0 +1,47 @@
+*{
+    background-color: black;
+  }
+  .Nav_div {
+    text-align: center;
+    background-color: none;
+    /*display: flex;*/
+    margin-top: 20px;
+  }
+  
+  .home {
+    margin-top: 20px;
+    font-weight: bold;
+    margin-right: 50px;
+    margin-left: 20px;
+    color:white;
+  }
+  
+  .about {
+    margin-top: 20px;
+    font-weight: bold;
+    margin-right: 50px;
+    margin-left: 20px;
+    color:white;
+  }
+  
+  .term {
+    margin-top: 20px;
+    font-weight: bold;
+    margin-right: 50px;
+    margin-left: 20px;
+    color:white;
+  }
+  .contacts {
+    margin-top: 20px;
+    font-weight: bold;
+    margin-right: 50px;
+    margin-left: 20px;
+    color:white;
+  }
+  .image img
+  {
+    margin-right: 50px;
+    height: 25px;
+    width:25px;
+  }
+  

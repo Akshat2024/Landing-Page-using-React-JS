@@ -1,38 +1,245 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+*{
+    background-color: black;
   }
+  .Nav_div {
+    text-align: center;
+    background-color: none;
+    /*display: flex;*/
+    margin-top: 20px;
+    margin-bottom: 25px;
+  }
+  
+  .home {
+    margin-top: 20px;
+    font-weight: bold;
+    margin-right: 50px;
+    margin-left: 20px;
+    color:white;
+    font-size: large;
+  }
+  
+  .about {
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: large;
+    margin-right: 50px;
+    margin-left: 20px;
+    color:white;
+  }
+  
+  .term {
+    margin-top: 20px;
+    font-weight: bold;
+    margin-right: 50px;
+    margin-left: 20px;
+    color:white;
+    font-size: large;
+  }
+  .contacts {
+    margin-top: 20px;
+    font-weight: bold;
+    margin-right: 50px;
+    margin-left: 20px;
+    color:white;
+    font-size: large;
+  }
+  .image 
+  {
+    padding: 50px;
+    margin-right: 550px;
+    font-size: xx-large;
+    font-weight:bolder;
+    color:white;
+  }
+  .comp img
+{
+    width: 1535px;
+    height:560px;
+    position:relative;
+}
+.heading
+{
+  position: absolute;
+  color: black;
+  font-size:x-large;
+  font-weight: bolder;
+  bottom:70%;
+  left:35%;
+  padding:25px;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+.btn button
+{
+ position: absolute;
+ color:white;
+ font-weight: bolder;
+ font-size:larger;
+ bottom:30%;
+ left:36%;
+}
+#butn
+{
+    padding:16px 18px;
+    border-radius: 10px;
+    background-color: tomato;
+    cursor: pointer;
+    border-style: solid;
+    border-color:tomato;
+    background-color: black;
+    box-shadow: 5px 5px 5px tomato;
+    animation-name:glow;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+@keyframes glow
+{
+    from
+    {
+        box-shadow: 5px 5px 5px tomato;
+    }
+    to
+    {
+        box-shadow: 15px 15px 15px tomato;
+    }
+}
+#butn:hover
+{
+background-color: tomato;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.btn2 button
+{
+ position: absolute;
+ color:white;
+ font-weight: bolder;
+ font-size:larger;
+ bottom:30%;
+ left:55%;
+}
+#butn2
+{
+    padding:16px 18px;
+    border-radius: 10px;
+    background-color: tomato;
+    cursor: pointer;
+    border-style: solid;
+    border-color:greenyellow;
+    background-color: black;
+    box-shadow: 5px 5px 5px greenyellow;
+    animation-name:glow1;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+@keyframes glow1
+{
+    from
+    {
+        box-shadow: 5px 5px 5px greenyellow;
+    }
+    to
+    {
+        box-shadow: 15px 15px 15px greenyellow;
+    }
+}
+#butn2:hover
+{
+background-color: greenyellow;
+}
+.one
+{
+  font-size: x-large;
+  font-weight: bold;
   color: white;
+  margin-left: 450px;
+  margin-top: 35px;
+}
+.two
+{
+  font-size: 21px;
+  font-weight: bold;
+  font-family: sans-serif;
+  color: white;
+  margin-left: 170px;
+  margin-top: 20px;
+}
+#get
+{
+  padding:20px;
+  border-radius: 100px;
+  background-color: white;
+  color:black;
+  margin-left: 675px;
+  margin-top: 20px;
+  font-size: large;
+  font-weight: bold;
+  cursor: pointer;
+}
+.parent{
+    margin-left: 25rem;
+    width: 690px;
+    height:240px;
+    display:flex;
+    justify-content: space-around;
+}
+.first
+{
+    width: 330px;
+    text-align: center;
+    margin-top: 25px;
+    border:2px solid lightgray;
+    border-radius: 15px;
+    margin-left: 15px;
+
 }
 
-.App-link {
-  color: #61dafb;
+.first img{
+    width:100%;
+    height: 80%;
+    
+    border-radius: 15px 15px 0 0;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.child3
+{
+    font-family: sans-serif;
+    font-weight: bold;
+    padding:5px;
+    background-color: white;
+}
+.temp
+{
+  font-size:x-large;
+  font-weight: bolder;
+  color: white;
+  margin-left: 500px;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+.ex
+{
+  font-size: x-large;
+  font-weight: bold;
+  font-family: sans-serif;
+  color: white;
+  margin-left: 580px;
+  margin-top: 20px;
+  text-decoration: underline;
+  cursor: pointer;
+}
+.footer
+{
+  padding: 10px;
+  background-color: black;
+  border-top: 1px solid white;
+}
+.foot-con
+{
+  background-color: black;
+  color:white;
+  margin-left: 600px;
 }

@@ -1,0 +1,115 @@
+.comp img
+{
+    width: 1535px;
+    height:560px;
+    position:relative;
+}
+.btn button
+{
+ position: absolute;
+ color:white;
+ font-weight: bolder;
+ font-size:larger;
+ bottom:30%;
+ left:36%;
+}
+#butn
+{
+    padding:16px 18px;
+    border-radius: 10px;
+    background-color: tomato;
+    cursor: pointer;
+    border-style: solid;
+    border-color:tomato;
+    background-color: black;
+    box-shadow: 5px 5px 5px tomato;
+    animation-name:glow;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+@keyframes glow
+{
+    from
+    {
+        box-shadow: 5px 5px 5px tomato;
+    }
+    to
+    {
+        box-shadow: 15px 15px 15px tomato;
+    }
+}
+#butn:hover
+{
+background-color: tomato;
+}
+
+.btn2 button
+{
+ position: absolute;
+ color:white;
+ font-weight: bolder;
+ font-size:larger;
+ bottom:30%;
+ left:55%;
+}
+#butn2
+{
+    padding:16px 18px;
+    border-radius: 10px;
+    background-color: tomato;
+    cursor: pointer;
+    border-style: solid;
+    border-color:greenyellow;
+    background-color: black;
+    box-shadow: 5px 5px 5px greenyellow;
+    animation-name:glow1;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+@keyframes glow1
+{
+    from
+    {
+        box-shadow: 5px 5px 5px greenyellow;
+    }
+    to
+    {
+        box-shadow: 15px 15px 15px greenyellow;
+    }
+}
+#butn2:hover
+{
+background-color: greenyellow;
+}
+.parent{
+    margin-left: 25rem;
+    width: 690px;
+    height:240px;
+    display:flex;
+    justify-content: space-around;
+}
+.first
+{
+    width: 330px;
+    text-align: center;
+    margin-top: 25px;
+    border:2px solid lightgray;
+    border-radius: 15px;
+    margin-left: 15px;
+
+}
+
+.first img{
+    width:100%;
+    height: 80%;
+    
+    border-radius: 15px 15px 0 0;
+}
+
+.child3
+{
+    font-family: sans-serif;
+    font-weight: bold;
+    padding:5px;
+    background-color: white;
+}
